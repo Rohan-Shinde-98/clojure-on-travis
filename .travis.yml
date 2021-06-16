@@ -5,3 +5,4 @@ arch:
 install: ant deps
 dist: focal
 language: groovy
+script: mvn test -B
