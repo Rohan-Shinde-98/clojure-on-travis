@@ -3,5 +3,5 @@ arch:
   - amd64
   - ppc64le
 # dist: focal
-language: groovy
-script: mvn test -B
+language: clojure
+# script: mvn test -B
