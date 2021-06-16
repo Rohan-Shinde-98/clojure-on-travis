@@ -5,5 +5,5 @@ arch:
 language: clojure
 sudo: required
 before_install:
-  - sudo apt-get update
-  - sudo apt-install leiningen
+  - apt-get update
+  - apt-install leiningen
