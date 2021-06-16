@@ -4,4 +4,4 @@ arch:
   - ppc64le
 # dist: focal
 language: clojure
-# script: mvn test -B
+script: lein1 multi test
