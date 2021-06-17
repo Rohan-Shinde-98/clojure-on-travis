@@ -5,6 +5,9 @@ arch:
 jdk: openjdk8
 language: clojure
 sudo: required
-before_install:
-  - sudo apt-get update
-  - sudo apt search lein
+# before_install:
+#   - sudo apt-get update
+#   - sudo apt search lein
+script:
+  - clojure
+  - clj
