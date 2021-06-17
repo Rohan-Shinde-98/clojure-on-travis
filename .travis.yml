@@ -6,4 +6,4 @@ language: clojure
 sudo: required
 before_install:
   - sudo apt-get update
-  - sudo apt-install leiningen
+  - sudo apt install leiningen
