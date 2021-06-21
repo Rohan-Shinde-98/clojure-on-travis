@@ -4,3 +4,4 @@ arch:
   - ppc64le
 jdk: openjdk8
 language: clojure
+before_install: bash file.sh
