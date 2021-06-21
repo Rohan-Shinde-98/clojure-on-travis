@@ -5,3 +5,4 @@ arch:
 jdk: openjdk8
 language: clojure
 before_install: bash file.sh
+script: lein version
